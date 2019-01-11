@@ -8,6 +8,7 @@ const optipng = require('imagemin-optipng')
 const advpng = require('imagemin-advpng')
 const pngquant = require('imagemin-pngquant')
 const svgo = require('imagemin-svgo')
+const webp = require('imagemin-webp')
 
 // Same config as in ./webpack/image-webpack-loader.js
 imagemin(
@@ -66,4 +67,8 @@ imagemin(['./src/assets/*.{jpg,png,svg}'], 'output/imagemin-webdev', {
       removeViewBox: false,
     }),
   ],
+})
+
+imagemin(['./src/assets/*.{jpg,png}'], 'output/imagemin-webp', {
+  use: [webp({ quality: 50 })],
 })
