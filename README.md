@@ -38,6 +38,7 @@ du -sh * | sort -h
 
 - Set of correct imagemin plugins is a key to the success
 - webp is the best format
+- for some reason `image-webpack-loader` has a better output, than `imagemin` with the same config. Even though image-webpack-loader is using imagemin under the hood.
 
 ## Recommended reading
 
