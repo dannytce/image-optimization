@@ -1,0 +1,8 @@
+{
+  "name": "image-optimization",
+  "version": "1.0.0",
+  "description": "A demonstration of various optimization techniques",
+  "repository": "git@github.com:dannytce/image-optimization.git",
+  "author": "dannytce <dankijkov@gmail.com>",
+  "license": "MIT"
+}
