@@ -34,6 +34,10 @@ cd output
 du -sh * | sort -h
 ```
 
+But note, that there some folders don't have equal amount of files (kraken.io and tinypng.com have file size limits, svgomg is meant to be just for svgs).
+
+Therefore I created a [Google Sheet table](https://docs.google.com/spreadsheets/d/13InH-YuQZAyXnslrfkmzNwiU8nwoj1XUmCKeqQ5TbWk/edit?usp=sharing), where you can compare the ouput much easier :)
+
 ## What I learned after comparsion
 
 - Set of correct imagemin plugins is a key to the success
