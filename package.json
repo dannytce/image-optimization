@@ -7,7 +7,7 @@
   "license": "MIT",
   "lint-staged": {
     "*.{png,jpeg,jpg,gif,svg}": [
-      "imagemin-lint-staged",
+      "node ./imagemin-lint-staged-custom.js",
       "git add"
     ]
   },
