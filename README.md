@@ -9,7 +9,6 @@ More information could be found in [my presentation](https://docs.google.com/pre
 > I used default settings, to demonstrate that actually developers shouldn't rely on them and setup them by their needs.
 
 - [image-webpack-loader](https://github.com/tcoopman/image-webpack-loader)
-- [img-loader](https://github.com/vanwagonet/img-loader)
 - [ImageOptim](https://imageoptim.com/)
 - [Kraken.io](https://kraken.io/)
 - [tinypng.com](https://tinypng.com/)
