@@ -34,7 +34,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "printf \"pre-commit hook disabled. To enable replace with imagemin-lint-staged or node ./imagemin-lint-staged-custom.js\""
     }
   }
 }

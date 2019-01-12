@@ -42,6 +42,7 @@ Therefore I created a [Google Sheet table](https://docs.google.com/spreadsheets/
 - Set of correct imagemin plugins is a key to the success
 - webp is the best format
 - for some reason `image-webpack-loader` has a better output, than `imagemin` with the same config. Even though image-webpack-loader is using imagemin under the hood.
+- imagemin run trough lint-staged has the same output as `node ./imagemin.js` as expected
 
 ## Recommended reading
 
